@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "mediateque",
+      "mediateque-client",
+      "mediateque-item",
+      "mediateque-order"
+    ],
+    "directoryPath": "../",
+    "gatewayType": "zuul",
+    "monitoring": "elk",
+    "consoleOptions": [
+      "zipkin"
+    ],
+    "serviceDiscoveryType": "eureka",
+    "adminPassword": "admin",
+    "jwtSecretKey": "278c58375f83892efd2bd0ef0a9fc4eb71e6ded8"
+  }
+}
